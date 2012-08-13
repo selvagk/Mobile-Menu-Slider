@@ -1,0 +1,61 @@
+
+/*!
+	Mobile-Menu-Slider v1.0
+	Original by Selvaganapathy Kaliamurthy: http://Selvagk.com
+	Get the latest version: https://github.com/selvagk/Mobile-Menu-Slider
+
+ *   @name app.css
+  *   @author Selvagk
+ *   @version 0.1
+ *   @Website :www.selvagk.com
+ 
+**/
+
+
+
+
+/***Reset CSS****/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;zoom:1;}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/**** webkit based touch Devices***/
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:none;-webkit-user-select:none;-webkit-touch-callout:none}
+body{overflow:hidden}
+header h1{width:90%}
+header a{width:9%;padding:15px 0}
+.swipe{-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden;-webkit-transition-property: -webkit-transform;-webkit-transition-duration: 0.7s;position:absolute;top:0;-webkit-transform:translate3d(0, 0, 0);-webkit-transform-style:flat; }
+#main{float:left;width:100%;left:0}
+#menu{width:100%;float:right;right:0;height:100%;-webkit-transform:translate3d(100%, 0, 0)}
+
+
+
+
+/***App specific Styling(Look and Feel)***/
+body{background-color:#C4CDE0;color:#000;font-family:Helvetica, sans-serif;font-size:14px;line-height:18px;}
+header h1{margin-top:15px	;}
+.clear{overflow:hidden;width:100%}
+.floatLeft{float:left}
+.floatRight{float:right}
+header{background:-webkit-gradient( linear, left top, left bottom, from(#738ABA), to(#2C4987));border-color:#111A33;-webkit-box-shadow:inset 0 1px 1px -1px white;text-align:center;padding:1px 0;color:#FFF}
+#main li{padding:10px;background-color:#FFF;margin:10px;-webkit-border-image:url(images/Oe4R0lQav2U.png) 3 3 4 repeat;border-width:3px 3px 4px;margin:10px 9px 11px;}
+#menu{background:#31394A;}
+#menu div{height:17px;padding-top:4px;border:1px solid #242A37;border-top:none;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .08);color:#7A8292;padding-left:10px; font-size:12px;line-height:12px;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#434B5C), to(#394152));}
+#menu p{color:#7A8292;text-shadow:0 1px 0 rgba(0, 0, 0, .6)}
+#menu li{border-bottom:1px solid #242A37;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .08);background-color:#31394A;padding:10px; font-weight:700}
+#menu li a{color:#C4CCDA;text-shadow:0 1px 0 rgba(0, 0, 0, .6);text-decoration:none;}
+
+
+
