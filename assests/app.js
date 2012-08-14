@@ -16,8 +16,8 @@ $(function(){
 	var detectStorage=localStorage.getItem('invoked');
 	
 	if(! detectStorage){
-	   	setTimeout(openMenu,1000);
-		setTimeout(closeMenu,3000);	
+	   	setTimeout(openMenu,2000);
+		setTimeout(closeMenu,5000);	
 	}
 
 $('#invokeMenu').on("touchstart",openMenu);
