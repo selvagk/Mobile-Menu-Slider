@@ -31,7 +31,7 @@ if($('#menu').hasClass('menuOpened')){
 	$('#menu').css({'-webkit-transform': 'translate3d(100%, 0, 0)'}).removeClass('menuOpened');
 }else{
 $('#main').css({'-webkit-transform': 'translate3d(-85%, 0, 0)'});
-$('#menu').css({'-webkit-transform': 'translate3d(15%, 0, 0)',}).addClass('menuOpened');	
+$('#menu').css({'-webkit-transform': 'translate3d(0, 0, 0)',}).addClass('menuOpened');	
 }
 
 }
