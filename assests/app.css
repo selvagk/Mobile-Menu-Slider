@@ -33,7 +33,7 @@ input,select{vertical-align:middle}
 
 /**** webkit based touch Devices***/
 *{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:none;-webkit-user-select:none;-webkit-touch-callout:none}
-body{overflow-x:hidden}
+body{overflow:hidden}
 header h1{width:90%}
 header a{width:9%;padding:15px 0}
 .swipe{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition-property: -webkit-transform;-webkit-transition-duration: 0.7s;-webkit-perspective:1000px;}
@@ -46,7 +46,7 @@ header a{width:9%;padding:15px 0}
 /***App specific Styling(Look and Feel)***/
 body{background-color:#C4CDE0;color:#000;font-family:Helvetica, sans-serif;font-size:14px;line-height:18px;}
 header h1{margin-top:15px	;}
-.clear{overflow:hidden;width:100%}
+.clear{overflow:hidden;width:100%;position:relative}
 .floatLeft{float:left}
 .floatRight{float:right}
 header{background:-webkit-gradient( linear, left top, left bottom, from(#738ABA), to(#2C4987));border-color:#111A33;-webkit-box-shadow:inset 0 1px 1px -1px white;text-align:center;padding:1px 0;color:#FFF}
