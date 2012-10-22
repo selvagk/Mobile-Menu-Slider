@@ -34,3 +34,8 @@ Options:
 1.Change the  ".swipe" class  "-webkit-transition-duration" in app.css to change the timing of the slide menu
 
 2.Change the x value of  "-webkit-transform" function in app.js to change the slide direction
+
+Demo:
+=====
+
+http://www.youtube.com/watch?v=V6_i2X2ep60
